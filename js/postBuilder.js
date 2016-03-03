@@ -1,6 +1,11 @@
 var blogPost = {
     "articles" : [
         {
+            "title" : "A new home for the site",
+            "date" : "March 3, 2016",
+            "body" : "Moved the site to a new home.  It is really a great place because I can keep messing with the front end stuff and refresh the unix skillset all at the same time.  I've put things up at my free unix shell account over on sdf.org.  I have to still get DNS updated, but the site is currently available at http://mike.shea.sdf.org/ , and if you have any interest in learning about Linux/Unix, you should check this place out."
+        },
+        {
             "title" : "Javascript generating HTML",
             "date" : "February 27, 2016",
             "body" : "So now I have javascript set to generate the HTML that displays each post. Instead of each article being written directly into the index.html, I put it into my postBuilder.js file in JSON format. Still not the most efficient way of doing things, but a lot better than ending up with a massive html file."
